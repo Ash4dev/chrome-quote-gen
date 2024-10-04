@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Custom New Tab",
+  "version": "1.0",
+  "description": "Loads a custom local HTML file as the new tab page",
+  "chrome_url_overrides": {
+    "newtab": "thought_quote.html"
+  },
+  "permissions": ["tabs"]
+}
+
